@@ -4,7 +4,7 @@ terraform {
     azurerm = {
        source = "hashicorp/azurerm"
        version = ">= 2.0"
-       # version = "~> 2.64.0" - will upgrade only right most decimal - Prod Usage
+       # version = "~> 2.64.0" - will upgrade only the right most decimal - Prod Usage
     }
   }
 }
